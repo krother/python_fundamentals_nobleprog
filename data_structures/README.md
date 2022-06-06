@@ -1,0 +1,28 @@
+
+# Data Types and Operations
+
+## Exercise 1
+
+Try out methods of [strings](strings.png) and [lists](lists.png) by typing in the examples in the images.
+
+## Exercise 2
+
+Do exercise 1 and 4 on [Strings - academis.eu](https://www.academis.eu/posts/python_basics/data_structures/strings.md)
+
+## Exercise 3
+
+Do exercise 1 and 2 on [Parsing Data - academis.eu](https://www.academis.eu/posts/python_basics/tabular_data/parsing.md)
+
+## Exercise 4
+
+Work as far as you get through the exercises on [Create a Time Series - academis.eu](https://www.academis.eu/posts/python_basics/tabular_data/time_series.md) 
+
+## Exercise 5
+
+Compare the methods of [dictionaries](dicts.png) as well.
+
+## Questions
+
+* what basic data types does Python offer?
+* what control flow statements 
+* what is the difference between a function and a method?

@@ -1,10 +1,10 @@
 
 # Python Fundamentals
 
-## Exercise
+## Exercise 1
 
-1. Open the file `guess_the_number.py`
-2. Follow the instructions to execute the program
+* Open the file `guess_the_number.py
+* Follow the instructions to execute the program
 
 ## Questions
 

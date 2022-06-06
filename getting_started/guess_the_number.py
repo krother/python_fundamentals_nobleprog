@@ -1,7 +1,7 @@
 """
 A guess the number game in Python
 
-Insert the following words into the gaps to make the program work:
+Insert the following words into the gaps (...) to make the program work:
 
     else
     finished
@@ -13,6 +13,7 @@ Insert the following words into the gaps to make the program work:
 
 """
 from random import ...
+
 
 ... = randint(1, 100)
 finished = False
