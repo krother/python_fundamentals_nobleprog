@@ -1,6 +1,12 @@
 
 # Data Types and Operations
 
+Throughout the day, we will write code to evaluate **baby name counts** from the US.
+We will use two sets of data:
+
+* [bigbang_names.csv](bigbang_names.csv) : a small file with the names from Big Bang Theory for one year
+* [national data](https://www.ssa.gov/oact/babynames/limits.html) - files for all years (use the 7 MB download)
+
 ## Exercise 1
 
 Try out methods of [strings](strings.png) and [lists](lists.png) by typing in the examples in the images.
