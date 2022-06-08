@@ -20,9 +20,10 @@
 
 ## Day 2
 
-* Object Oriented Programming
-* Error Handling and Testing
-* Organizing and Distributing Code
+* [Dictionaries and Functions](dict_func.md)
+* [Object Oriented Programming](snake_game/README.md)
+* [Error Handling and Testing](snake_game/README.md))
+* [Organizing and Distributing Code](snake_game/README.md)
 * Working with Files and Directories
 * Look into Jupyter/pandas
 * Leftovers / Q & A
