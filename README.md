@@ -24,13 +24,38 @@
 * Error Handling and Testing
 * Organizing and Distributing Code
 * Working with Files and Directories
+* Look into Jupyter/pandas
 * Leftovers / Q & A
 
 ----
 
-## Further Reading
+## How to find out whether a function / method exists?
 
-* **Please request what helps you specifically. This can save you tons of time!**
+* methods of strings / lists / dicts : learn these
+* builtin functions : learn the 24 builtin functions
+* to learn them: type in commands from [Cheat Sheets](cheat_sheets/)
+* in modules from the standard library (pre-installed): use the context help in your IDE
+* use [devdocs.io](devdocs.io/)
+
+## How to find out which library to use for a given purpose?
+
+start with a list of frequently used packages
+
+* [Academis package examples](https://www.academis.eu/python_packages) - one example for 30+ libraries
+* [fullstackpython.com](https://www.fullstackpython.com/) (web development)
+* [Awesome Python](https://github.com/vinta/awesome-python) - huge but curated list
+* [PyAutoGUI: GUI Testing](https://github.com/asweigart/pyautogui) - Haven't tried it but author is well known
+
+## Where to find code examples?
+
+* [Academis Python reference](https://www.academis.eu/python_reference) - beginners vocabulary
+* [Chris Albon](https://chrisalbon.com/) - tons of short data science examples
+* [pandas user guide](https://pandas.pydata.org/docs/) - data analysis
+* [Scipy-Lectures](https://scipy-lectures.org/) - plotting and numpy
+* [Graphics with Numpy](https://www.academis.eu/numpy_graphics) - easy numpy examples
+* [Image Processing with OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+
+## Further Reading
 
 * [Exercises on academis.eu](https://www.academis.eu) that this course is based on
 * [Recommended books and websites](https://www.academis.eu/posts/python_basics/appendix/links.md)
