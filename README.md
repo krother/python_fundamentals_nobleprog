@@ -20,6 +20,7 @@
 
 ## Day 2
 
+* [Warmup](warmup.py)
 * [Dictionaries and Functions](dict_func.md)
 * [Object Oriented Programming](snake_game/README.md)
 * [Error Handling and Testing](snake_game/README.md))
