@@ -51,7 +51,7 @@ print(add(1, 2, 3, 4))
 def add(**kwargs):
     """function with keyword arguments"""
     result = 0
-    for key in kwargs:
+    for key in kwargs:  # kwargs is a dictionary
         result += kwargs[key]
     return result
 
