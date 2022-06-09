@@ -13,8 +13,14 @@ FOOD_SYMBOL = '*'
 
 
 class SnakeGame:
+    # everything is public by default
 
     def __init__(self, size, start_pos):
+        """
+        Constructor has to be called __init__
+
+        self is a reference to an instance of the class
+        """
         self.snake = Snake(*start_pos)
         self.playing_field = PlayingField(size)
         self.running = True
@@ -22,6 +28,12 @@ class SnakeGame:
 
     @property
     def size(self):
+        """
+        The @property decorator allows us to use size
+        as if it was an attribute.
+
+        -> effectively this is a getter method
+        """
         return self.playing_field.size
 
     @property
@@ -44,6 +56,7 @@ class SnakeGame:
         return '\n'.join([''.join(row) for row in self.field])
     
     def set_direction(self, direction):
+        """a method that modifies one of the attributes"""
         self.snake.direction = direction
 
     def update(self):

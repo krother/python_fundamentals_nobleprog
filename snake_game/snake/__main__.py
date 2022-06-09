@@ -7,8 +7,8 @@ from snake.game import SnakeGame, UP, DOWN, LEFT, RIGHT
 
 
 # ASCII codes of characters on the keyboard
-# KEY_COMMANDS = {97: LEFT, 100: RIGHT, 119: UP, 115: DOWN}
-KEY_COMMANDS = {68: LEFT, 67: RIGHT, 66: DOWN, 65: UP}
+KEY_COMMANDS = {97: LEFT, 100: RIGHT, 119: UP, 115: DOWN}  # WASD
+#KEY_COMMANDS = {68: LEFT, 67: RIGHT, 66: DOWN, 65: UP}
 
 COLORS = {
     'O': 1,

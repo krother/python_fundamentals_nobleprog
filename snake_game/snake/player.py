@@ -13,9 +13,9 @@ class Snake:
         self.tail = []
         self.direction = RIGHT
 
-    def forward(self):
-        """Moves the snake one step ahead"""
+    def move_head(self):
         x, y = self.head
+        # code that does the calculation
         if self.direction == RIGHT:
             self.head = x + 1, y
         elif self.direction == UP:
@@ -25,8 +25,16 @@ class Snake:
         else:
             self.head = x - 1, y
 
+    def forward(self):
+        """Moves the snake one step ahead"""
+        self.tail.append(self.head)  # old head position goes to tail
+        self.move_head()
+        self.tail.pop(0)
+
     def grow(self):
-        ...
+        """Adds an extra element to the tail"""
+        last = self.tail[-1] if self.tail else self.head
+        self.tail.append(last)
 
     def eat(self, playground):
         """Eats food at the position of the head, if any"""
@@ -37,6 +45,10 @@ class Snake:
     def check_collision(self, playground):
         """Returns True if the head hits an obstacle or the tail"""
         return (
-            self.head in playground.walls # wall collisions
+            self.head in playground.walls or  # wall collisions
+            (
+                # tail collisions
+                len(self.tail) > 1 and
+                self.head in self.tail
+            )
         )
-        

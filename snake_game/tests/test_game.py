@@ -32,6 +32,7 @@ def test_create_game():
     assert s.size == (10, 10)
     assert s.running
 
+
 @patch('random.randint', MagicMock(return_value=1))
 def test_to_string():
     s = SnakeGame(size=(6, 5), start_pos=(1, 2))
