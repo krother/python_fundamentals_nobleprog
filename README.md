@@ -4,63 +4,46 @@
 
 ## Organizational links
 
-* [Zoom Session](https://us06web.zoom.us/j/82013751524?pwd=SVJ0MDhwZmdRWkFMM2JJaW1JU0J3Zz09)
-* [NobleProg Course Outline](https://www.nobleprog.ro/en/cc/pyprfu/)
+* [Zoom Session](https://us06web.zoom.us/j/85389761262?pwd=U1J1SEtjZHZ1NnptS0Q2RVRkb09jQT09)
 * [Spreadsheet for results](https://docs.google.com/spreadsheets/d/1Q9s-KTkw8_HvkJZO_hcMXw01m9w9HVGGBaAU8oZ4gsM/edit?usp=sharing)
+* [NobleProg Course Outline](https://www.nobleprog.ro/en/cc/pyprfu/)
+* [Prerequisites](prerequisites.md)
+
+Q: What application is Python useful for?
+Q: square brackets are used to define what data type? string integer float list
+Q: order of arguments in a function?
+Q: slicing
+Q: what would you know about Python today?
 
 ## Day 1
 
-* [Introduction to Python Programming](getting_started/README.md)
-* [Data Types and Operations](data_structures/README.md)
-* [Writing Functions](writing_functions/README.md)
-* [Useful Libraries](useful_libraries/README.md)
-* [Wrap-up](https://app.funretrospectives.com/agendas/-N3uScD1g9VIZGBmareX)
+* [Getting Started](kingdom_simulator/README.md)
+* [Data Types and Structures](data_structures/README.md)
+* [Structuring Code](structuring_code/README.md)
+* [Working with Text and Regular Expressions](text/README.md)
+
 
 ----
 
 ## Day 2
 
 * [Warmup](warmup.py)
-* [Dictionaries and Functions](dict_func.md)
+* [Useful Libraries](useful_libraries/README.md)
 * [Object Oriented Programming](snake_game/README.md)
 * [Error Handling and Testing](snake_game/README.md))
 * [Organizing and Distributing Code](snake_game/README.md)
 * Working with Files and Directories
 * Look into Jupyter/pandas
-* Leftovers / Q & A
+* Array data processing with numpy
+* Processing Tabular data from JSON, CSV and XML files
 
 ----
 
-## How to find out whether a function / method exists?
+## Appendix
 
-* methods of strings / lists / dicts : learn these
-* builtin functions : learn the 24 builtin functions
-* to learn them: type in commands from [Cheat Sheets](cheat_sheets/)
-* in modules from the standard library (pre-installed): use the context help in your IDE
-* use [devdocs.io](devdocs.io/)
-
-## How to find out which library to use for a given purpose?
-
-start with a list of frequently used packages
-
-* [Academis package examples](https://www.academis.eu/python_packages) - one example for 30+ libraries
-* [fullstackpython.com](https://www.fullstackpython.com/) (web development)
-* [Awesome Python](https://github.com/vinta/awesome-python) - huge but curated list
-* [PyAutoGUI: GUI Testing](https://github.com/asweigart/pyautogui) - Haven't tried it but author is well known
-
-## Where to find code examples?
-
-* [Academis Python reference](https://www.academis.eu/python_reference) - beginners vocabulary
-* [Chris Albon](https://chrisalbon.com/) - tons of short data science examples
-* [pandas user guide](https://pandas.pydata.org/docs/) - data analysis
-* [Scipy-Lectures](https://scipy-lectures.org/) - plotting and numpy
-* [Graphics with Numpy](https://www.academis.eu/numpy_graphics) - easy numpy examples
-* [Image Processing with OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
-
-## Further Reading
-
-* [Exercises on academis.eu](https://www.academis.eu) that this course is based on
-* [Recommended books and websites](https://www.academis.eu/posts/python_basics/appendix/links.md)
+* [Frequently Asked Questions](faq.md)
+* [Cheat Sheets](cheat_sheets/)
+* [Links](links.md)
 
 ----
 
