@@ -1,34 +1,41 @@
 
-# Data Types and Operations
+# Data Types
 
-Throughout the day, we will write code to evaluate **baby name counts** from the US.
-We will use two sets of data:
+### Exercise 1
 
-* [bigbang_names.csv](bigbang_names.csv) : a small file with the names from Big Bang Theory for one year
-* [national data](https://www.ssa.gov/oact/babynames/limits.html) - files for all years (use the 7 MB download)
+Identify the data types in the picture:
 
-## Exercise 1
+![](datatypes.png)
 
-Try out methods of [strings](strings.png) and [lists](lists.png) by typing in the examples in the images.
+----
 
-## Exercise 2
+### Exercise 2
 
-Do exercise 1 and 4 on [Strings - academis.eu](https://www.academis.eu/posts/python_basics/data_structures/strings.md)
+Try out methods of **lists** by typing in the examples in the image.
 
-## Exercise 3
+![](lists.png)
 
-Do exercise 1 and 2 on [Parsing Data - academis.eu](https://www.academis.eu/posts/python_basics/tabular_data/parsing.md)
+----
 
-## Exercise 4
+### Exercise 3
 
-Work as far as you get through the exercises on [Create a Time Series - academis.eu](https://www.academis.eu/posts/python_basics/tabular_data/time_series.md) 
+Discuss indexing and slicing of lists:
 
-## Exercise 5
+![](indexing.png)
 
-Compare the methods of [dictionaries](dicts.png) as well.
+----
 
-## Questions
+### Exercise 4
 
-* what basic data types does Python offer?
-* what control flow statements 
+Try out the methods of **dictionaries** as well.
+
+![](dicts.png)
+
+----
+
+### Reflection Questions
+
+* can you use indexing and slicing on dictionaries?
+* what are lists good for? 
+* what are dictionaries good for?
 * what is the difference between a function and a method?
