@@ -11,21 +11,21 @@ Open the file [sim_kingdom.py](sim_kingdom.py).
 
 Fill in the correct code sniplets into the gaps marked by `...`:
 
-   quarries += 1
+    quarries += 1
       
-   stone = 0
+    stone = 0
 
-   selected == '3' and wood >= 100 and stone >= 100 and mana >= 100
+    selected == '3' and wood >= 100 and stone >= 100 and mana >= 100
 
-   print(f"[{counter}] {name}")
+    print(f"[{counter}] {name}")
 
-   stone += quarries
+    stone += quarries
 
 ----
 
 ### Exercise 2
 
-Execute the program. Enter a few commands and check whether it works.
+Execute the program. Play a few rounds and check whether program works.
 
 ----
 
@@ -40,7 +40,7 @@ It costs 10 wood and 15 stone and produces 1 mana per turn.
 
 ### Exercise 4
 
-There is a subtle bug in the program.
+There is a small bug in the program.
 You might notice it when you solve the game.
 
 What needs to be done to fix it?

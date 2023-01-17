@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-*course materials forNobleProg course 06/22*
+*course materials for NobleProg course 01/23*
 
 ## Organizational links
 
@@ -9,19 +9,12 @@
 * [NobleProg Course Outline](https://www.nobleprog.ro/en/cc/pyprfu/)
 * [Prerequisites](prerequisites.md)
 
-Q: What application is Python useful for?
-Q: square brackets are used to define what data type? string integer float list
-Q: order of arguments in a function?
-Q: slicing
-Q: what would you know about Python today?
-
 ## Day 1
 
 * [Getting Started](kingdom_simulator/README.md)
 * [Data Types and Structures](data_structures/README.md)
 * [Structuring Code](structuring_code/README.md)
 * [Working with Text and Regular Expressions](text/README.md)
-
 
 ----
 
