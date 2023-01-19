@@ -19,9 +19,9 @@ class Snake:
         if self.direction == RIGHT:
             self.head = x + 1, y
         elif self.direction == UP:
-            self.head = x, y - 1
-        elif self.direction == DOWN:
             self.head = x, y + 1
+        elif self.direction == DOWN:
+            self.head = x, y - 1
         else:
             self.head = x - 1, y
 

@@ -1,4 +1,11 @@
+"""
+Start a web server:
 
+1) python -m pip install flask
+2) start the program
+3) go to http://localhost:5000 in the browser
+
+"""
 from flask import Flask, render_template
 
 app = Flask(__name__)

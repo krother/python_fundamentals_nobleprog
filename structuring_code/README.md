@@ -116,27 +116,3 @@ Run the tests again when you are don. They should still passs.
 ### Exercise 7
 
 Execute the code sniplets in [function_examples.py](function_examples.py) and understand what they do.
-
-----
-
-### Exercise 8
-
-Try out some of the following builtin functions.
-Make sure you understand what they do:
-
-    int       abs      range         print
-    float     min      enumerate     input
-    str       max      sorted        open
-    tuple     round    zip
-    list      sum      len 
-    dict
-    set
-    bool
-
-----
-
-### Reflection Questions
-
-Match the pairs:
-
-![](functions.png)

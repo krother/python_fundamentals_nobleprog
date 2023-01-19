@@ -33,15 +33,18 @@ def test_create_game():
     assert s.running
 
 
+
 @patch('random.randint', MagicMock(return_value=1))
 def test_to_string():
     s = SnakeGame(size=(6, 5), start_pos=(1, 2))
     assert s.to_string() == START_SMALL
 
+
 @patch('random.randint', MagicMock(return_value=1))
 def test_to_string2():
     s = SnakeGame(size=(6, 5), start_pos=(2, 2))
     assert s.to_string() == START_SMALL_CENTER
+
 
 @patch('random.randint', MagicMock(return_value=1))
 def test_move():
@@ -49,12 +52,14 @@ def test_move():
     s.update()
     assert s.to_string() == START_SMALL_CENTER
 
+
 @patch('random.randint', MagicMock(return_value=1))
 def test_set_direction():
     s = SnakeGame(size=(6, 5), start_pos=(1, 2))
     s.set_direction(UP)
     s.update()
     assert s.to_string() == START_SMALL_UP
+
 
 @patch('random.randint', MagicMock(return_value=1))
 def test_move_up():

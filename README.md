@@ -20,15 +20,14 @@
 
 ## Day 2
 
-* [Warmup](warmup.py)
-* [Useful Libraries](useful_libraries/README.md)
+* [Built-in Functions](structuring_code/builtin_functions.md)
+* [Array data processing with numpy](numpy_example/README.md)
+* [Data Analysis of JSON, CSV and XML files](data_analysis/README.md)
 * [Object Oriented Programming](snake_game/README.md)
-* [Error Handling and Testing](snake_game/README.md))
 * [Organizing and Distributing Code](snake_game/README.md)
 * Working with Files and Directories
-* Look into Jupyter/pandas
-* Array data processing with numpy
-* Processing Tabular data from JSON, CSV and XML files
+
+* [Useful Libraries](useful_libraries/README.md)
 
 ----
 

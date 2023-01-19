@@ -43,3 +43,13 @@ Combine exercises 3 + 4 to do the same in Python.
 To load a baby names into a Python string, use the code:
 
     text = open('yob2000.txt').read()
+
+----
+
+## How can I learn more about Regular Expressions?
+
+Start here:
+
+* [regex101.com](https://regex101.com/) – an online RegEx tester
+* [regexone.com/](http://regexone.com/) – Learning regular expressions in 16+ lessons.
+* [Regex Golf](https://regex.alf.nu/) – Very hard regular expression problems.

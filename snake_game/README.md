@@ -33,7 +33,7 @@ Run the tests from Pycharm or with:
 
    pytest
 
-## Exercise 6: Extend
+## Exercise 6: Fix
 
-Implement the missing feature.
+Fix the missing test.
 

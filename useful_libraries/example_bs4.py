@@ -1,4 +1,11 @@
+"""
+HTML Parsing
+
+    python -m pip install lxml bs4
+    
+"""
 from bs4 import BeautifulSoup
+
 
 html = """<html><head></head><body>
 <h1>Hamlet</h1>
