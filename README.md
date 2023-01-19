@@ -25,8 +25,6 @@
 * [Data Analysis of JSON, CSV and XML files](data_analysis/README.md)
 * [Object Oriented Programming](snake_game/README.md)
 * [Organizing and Distributing Code](snake_game/README.md)
-* Working with Files and Directories
-
 * [Useful Libraries](useful_libraries/README.md)
 
 ----
