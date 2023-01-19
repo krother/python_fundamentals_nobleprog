@@ -4,6 +4,8 @@
 
 Install Numpy with:
 
+    python -m pip install numpy
+
 Try the code:
 
     import numpy as np
