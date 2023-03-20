@@ -2,7 +2,14 @@
 
 ### Create a NumPy Array
 
-Install Numpy with:
+Install Numpy and Pillow with:
+
+    python -m pip install numpy pillow
+
+You might also try the Jupyter notebook
+
+    python -m pip install jupyter
+    jupyter notebook
 
 Try the code:
 
@@ -20,11 +27,7 @@ Add the instructions:
 
 ### Making an image
 
-Install the Pillow library:
-
-    python -m pip install pillow
-
-Increase the size of the image to `(200, 200)`.
+Increase the size of the array to `(200, 200)`.
 
 Add the lines:
 
