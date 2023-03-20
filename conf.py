@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'python_fundamentals'
+project = 'Python Fundamentals'
 copyright = '2023, Kristian Rother'
 author = 'Kristian Rother'
 release = '0.5'
@@ -31,19 +31,20 @@ language = 'ls'
 html_theme = 'furo'
 html_theme_path = ['themes']
 html_static_path = ['_static']
-html_logo = "_static/banner_wide.svg"
+#html_logo = "_static/academis-header.png"
 html_favicon = "_static/favicon.ico"
-
+html_title = "Python Fundamentals"
 
 html_theme_options = {
-    "sidebar_hide_name": True,
+    "sidebar_hide_name": False,
     "source_repository": "https://github.com/krother/python_fundamentals_nobleprog/",
     "source_branch": "main",
     "source_directory": "/",
 
     "light_css_variables": {
         # see https://github.com/pradyunsg/furo/tree/main/src/furo/assets/styles/variables
-        "color-card-background": "##80b940",
+        "color-card-background": "#80b940",
+        "color-background-secondary": "#d3e7a9",  # "#b3d789",
     },
 }
 
