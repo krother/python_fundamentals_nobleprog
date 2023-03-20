@@ -1,6 +1,6 @@
 # Python Fundamentals
 
-*course materials for NobleProg course 01/23*
+*course materials for NobleProg course 03/23*
 
 ## Organizational links
 

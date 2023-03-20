@@ -16,19 +16,6 @@ Every month, you can build one building:
 How many months will the construction work take?
 """
 
-"""
-Fill in the correct code sniplets into the gaps marked by `...`:
-
-   quarries += 1
-      
-   stone = 0
-
-   selected == '3' and wood >= 100 and stone >= 100 and mana >= 100:
-
-   print(f"[{counter}] {name}")
-
-   stone += quarries
-"""
 # initialize resources
 wood = 0
 ...
