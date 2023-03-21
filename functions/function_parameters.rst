@@ -10,9 +10,8 @@ There are four types of function parameters in Python:
 
 The following example uses all four of them:
 
-::
+.. code:: python3
 
-   :::python
    def example(obligatory, optional=77, *args, **kwargs):
        print("obligatory: ", obligatory)
        print("optional  : ", optional)
@@ -35,9 +34,8 @@ others are not:
 
 Here is a small illustration:
 
-::
+.. code:: python3
 
-   :::python
    def change(var1, var2):
        """Change two values."""
        var1 += [7]
