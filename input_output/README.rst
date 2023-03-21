@@ -6,7 +6,6 @@ Basic Input and Output
    :maxdepth: 1
 
    print.rst
-   string_formatting.rst
    input.rst
    reading_files.rst
    writing_files.rst

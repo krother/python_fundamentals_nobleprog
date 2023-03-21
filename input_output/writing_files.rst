@@ -9,14 +9,19 @@ that you need to add the ``'w'`` parameter for *writing*.
 
 .. code:: python3
 
-   f = open('my_file.txt','w')
-   f.write(text)
-   f.close()
+   with open('my_file', 'w') as f:
+       f.write('line of text\n')
 
-When writing data, Python *buffers* the data and writes it to the disk
-with a delay. The writing occurs after the file has been closed, when
-Python ends or when the buffer runs full. By using ``close()`` you make
-sure the data gets written.
+
+The ``with`` statement is called a **Context Manager**.
+It takes care of closing the file automatically.
+
+.. note::
+
+   When writing data, Python *buffers* the data and writes it to the disk
+   with a delay. The writing occurs after the file has been closed, when
+   Python ends or when the buffer runs full.
+   The ``with`` block makes sure the data gets written immediately.
 
 ----
 
@@ -34,7 +39,7 @@ end of each line:
 
 ----
 
-Writw a table to a text file
+Write a table to a text file
 ----------------------------
 
 A straightforward pattern to write multiple columns to a file uses a
@@ -45,11 +50,10 @@ A straightforward pattern to write multiple columns to a file uses a
    names = ['Emily', 'Bob', 'Charlie']
    ages = [23, 45, 67]
 
-   f = open('my_file.txt', 'w')
-   for name, age in zip(names, ages):
-       line = "{};{}\n".format(name, age)
-       f.write(line)
-   f.close()
+   with open('my_file.txt', 'w') as f:
+      for name, age in zip(names, ages):
+          line = "{};{}\n".format(name, age)
+          f.write(line)
 
 Like with reading, the ``csv`` and ``pandas`` offer more sophisticated
 ways to write tables.
@@ -63,19 +67,5 @@ It is possible to append text to an existing file, too.
 
 .. code:: python3
 
-   f = open('my_file.txt','a')
-   f.write('line appended at the end\n')
-   f.close()
-
-----
-
-Writing to a file with a Context Manager
-----------------------------------------
-
-The ``with`` statement creates a **Context Manager** that takes care of
-closing a file automatically:
-
-.. code:: python3
-
-   with open('my_file', 'w') as f:
-       f.write('line of text\n')
+   with open('my_file.txt','a') as f:
+       f.write('line appended at the end\n')
