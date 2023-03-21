@@ -1,5 +1,5 @@
-Conditional loops with while
-============================
+``while`` loops
+===============
 
 Another control flow statement is the **conditional loop** with
 ``while``. While loops combine the properties ``for`` and ``if``. The

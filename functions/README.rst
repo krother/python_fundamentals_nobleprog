@@ -1,7 +1,6 @@
 
-Functions
-=========
-
+Writing Functions
+=================
 
 .. toctree::
    :maxdepth: 1
@@ -9,8 +8,4 @@ Functions
    functions.rst
    function_parameters.rst
    scope.rst
-   builtin_functions.rst
-   type_conversions.rst
-   introspection.rst
    decorators.rst
-   exercises.rst

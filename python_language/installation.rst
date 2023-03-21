@@ -3,13 +3,27 @@ Installing Python
 =================
 
 To use Python, you need the **Python Interpreter** and a **Code Editor**.
-I recommend the following:
+A convenient option is `Anaconda <https://store.continuum.io/cshop/anaconda/>`__,
+a Python distribution with an editor and many pre-installed packages for scientific applications.
+After installing, start the **Anaconda Navigator**:
 
--  `Python 3.10+ <https://www.python.org>`__
--  `PyCharm <https://www.jetbrains.com/pycharm/>`__
+::
 
-There are plenty of other installation options
-(e.g. the Anaconda distribution and VSCode), but in my opinion this is the best one.
+   anaconda-navigator
+
+You will see a startup screen from which you can launch the **Spyder** IDE.
+
+----
+
+Alternatives
+------------
+
+-  `Python 3 <https://www.python.org/downloads/>`__ - the standard Python installation
+-  **VSCode** - a free multi-purpose editor
+-  `PyCharm <https://www.jetbrains.com/pycharm/>`__ - a professional Python development environment capable
+   of handling large projects. You won’t need most of the functionality
+   for a long time, but it is a well-written editor.
+-  **vim** - a console-based text editor for Unix systems. The tool of choice for many system administrators.
 
 ----
 

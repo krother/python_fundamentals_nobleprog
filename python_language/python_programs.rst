@@ -86,7 +86,7 @@ in Python 3.
 
 You can see the complete list with the commands:
 
-.. code:: python::
+.. code:: python3
 
    import keyword
    keyword.kwlist
@@ -116,7 +116,7 @@ Comments are lines that are *not* executed. They allow you to document
 your code to make it easier to read. Also, you can temporarily disable
 lines of code. There are different ways to write comments:
 
-.. code:: python::
+.. code:: python3
 
    # this is a one-line comment
 

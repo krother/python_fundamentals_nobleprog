@@ -8,18 +8,19 @@ programming a lot easier. Here, the 22 most important ones are given.
 **These 22 functions are your basic vocabulary, knowing these is a must
 to write Python efficiently!**
 
-=============== ===== ===== =========
-type conversion I/O   math  iterables
-=============== ===== ===== =========
-int             print abs   range    
-float           input round len      
-str             open  sum   sorted   
-bool                  min   reversed 
-tuple                 max   enumerate
-list                        zip      
-dict                                 
-set                                  
-=============== ===== ===== =========
+Exercise
+--------
+
+Try out the following builtin functions on the Python command line.
+Look up their usage in the documentation.
+
+::
+
+   group A        group B        group C
+   =======        =======        =======
+   min            max            abs    
+   range          sum            round  
+   open           enumerate      zip    
 
 ----
 
@@ -43,7 +44,9 @@ Basic reading and writing data requires just three functions:
 
 .. code:: python3
 
-   print(s)       input(s)     open(filename, mode)
+   print(s)      
+   input(s)
+   open(filename, mode)
 
 ----
 
@@ -54,16 +57,14 @@ With ``abs()`` you can calculate the absolute value of a number:
 
 .. code:: python3
 
-   >>> abs(-42)
-   42
+   abs(-42)
 
 With ``round()`` you can round numbers to a given number of digits:
 
 .. code:: python3
 
-   >>> round(3.14159, 2)
-   3.14
-
+   round(3.14159, 2)
+   
 ----
 
 Working with sequences
@@ -74,9 +75,15 @@ dictionaries, tuples and *iterators*). The most common ones are:
 
 .. code:: python3
 
-   len(x)        min(x)        sorted(x)        enumerate(x)
-   sum(x)        max(x)        reversed(x)      zip(x)
+   len(x)
    range(x)
+   min(x)
+   max(x)
+   sum(x)
+   reversed(x)
+   enumerate(x)
+   zip(x)
+   
 
 I will explain them one by one
 
@@ -88,9 +95,8 @@ argument. It works with strings, lists, tuples, and dictionaries.
 
 .. code:: python3
 
-   >>> data = [0, 1, 2, 3]
-   >>> len(data)
-   4
+   data = [0, 1, 2, 3]
+   len(data)
 
 Summing up numbers
 ~~~~~~~~~~~~~~~~~~
@@ -100,10 +106,9 @@ The sum of a list of integer or float numbers can be calculated by the
 
 .. code:: python3
 
-   >>> data = [1, 2, 3, 4]
-   >>> sum(data)
-   10
-
+   data = [1, 2, 3, 4]
+   sum(data)
+   
 Smallest and largest value
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -112,11 +117,8 @@ value of a list:
 
 .. code:: python3
 
-   >>> data = [3, 5, 1, 7]
-   >>> min(data)
-   1
-   >>> max(data)
-   7
+   data = [3, 5, 1, 7]
+   min(data), max(data)
 
 Creating lists of integer numbers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,15 +128,11 @@ There are two optional parameters for the start value and the step size.
 
 .. code:: python3
 
-   >>> list(range(4))
-   [0, 1, 2, 3]
-   >>> list(range(1, 5))
-   [1, 2, 3, 4]
-   >>> list(range(2, 9, 2))
-   [2, 4, 6, 8]
-   >>> list(range(5, 0, -1))
-   [5, 4, 3, 2, 1]
-
+   list(range(4))
+   list(range(1, 5))
+   list(range(2, 9, 2))
+   list(range(5, 0, -1))
+   
 Note that because ``range()`` returns an **iterator** (a kind of lazy
 on-demand list), you need to convert it to a list to see the data.
 
@@ -147,9 +145,10 @@ elements of the list.
 
 .. code:: python3
 
-   >>> fruits = ['apple', 'banana', 'orange']
-   >>> list(enumerate(fruits))
-   [(0, 'apple'), (1, 'banana'), (2, 'orange')]
+   fruits = ['apple', 'banana', 'orange']
+   list(enumerate(fruits))
+
+   # [(0, 'apple'), (1, 'banana'), (2, 'orange')]
 
 Note that ``enumerate()`` produces an iterator. To obtain a list, you
 need to convert it.
@@ -170,16 +169,6 @@ becomes simply:
    for i, elem in enumerate(data):
        print(i, elem)
 
-Sorting data
-~~~~~~~~~~~~
-
-The ``sorted()`` function sorts a list or the keys of a dictionary, but
-does not change the original data.
-
-.. code:: python3
-
-   >>> sorted(data)
-   [1, 3, 5, 7]
 
 Reversing data
 ~~~~~~~~~~~~~~

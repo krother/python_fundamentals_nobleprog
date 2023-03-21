@@ -13,6 +13,18 @@ single quotes, double quotes, triple-single or triple-double-quotes:
 
 ----
 
+Exercise
+--------
+
+Try out methods of strings in the picture:
+
+.. figure:: strings.png
+   :alt: strings
+
+   strings
+
+--------------
+
 Special characters
 ------------------
 
@@ -152,3 +164,13 @@ Both of the following functions return a boolean:
 
    name.startswith('Man')
    name.endswith('ings')
+
+----
+
+Exercise
+--------
+
+Use string methods to fill in the gaps in the following code:
+
+.. literalinclue:: string_exercise.py
+

@@ -1,5 +1,5 @@
-Conditional statements with ``if``
-==================================
+``if`` statements
+=================
 
 The ``if`` statement is used to implement decisions and branching in a
 program. One or more instructions are only executed if a condition

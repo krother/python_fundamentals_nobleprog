@@ -8,7 +8,7 @@ simpler Python shell. It is also called *interactive mode* or
 
 You can use any Python command from the *IPython Shell*:
 
-.. code:: python::
+.. code:: python3
 
    In [1]: 1 + 1
    Out[1]: 2

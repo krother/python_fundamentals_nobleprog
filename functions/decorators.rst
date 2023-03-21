@@ -63,40 +63,6 @@ using a decorator:
 .. code:: python3
 
    def print_timestamp(func):
-       def wrapper(*args):
-           print(time.asctime())  # done before addition
-           result = func(*args)   # calls the addition function
-           ...                    # actions after addition
-           return result
-   return wrapper
-
-   @print_timestamp
-   def fibonacci(n):
-       """Recursively calculates fibonacci numbers"""
-       if n < 2:
-           return n
-       return fibonacci(n-1) + fibonacci(n-2)
-
-You can argue that this does not simplify the code in the first place.
-Using decorators pays off in bigger programs, when they are used often,
-or imported from different modules.
-
-Most of the time, you would use predefined decorators.
-
---------------
-
-Wrapping Decorators
--------------------
-
-The **``wraps``** decorator copies documentation strings into the
-decorator function, so that the decorated function looks like the
-original one. It is useful when writing your own decorators.
-
-.. code:: python3
-
-   import functools
-
-   def print_timestamp(func):
        @functools.wraps(func)
        def wrapper(*args):
            print(time.asctime())  # done before addition
@@ -112,6 +78,14 @@ original one. It is useful when writing your own decorators.
            return n
        return fibonacci(n-1) + fibonacci(n-2)
 
+The **``wraps``** decorator copies documentation strings into the
+decorator function, so that the decorated function looks like the
+original one. It is useful when writing your own decorators.
 
-   # check docstring - would not work without @wraps
-   print(help(addition))
+.. note::
+
+   You could argue that this does not simplify the code in the first place.
+   Using decorators pays off in bigger programs, when they are used often,
+   or imported from different modules.
+
+   Most of the time, you would use predefined decorators, if any.

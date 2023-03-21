@@ -25,6 +25,16 @@ of each entry is the **key**, on the right side the **value**:
 
 ----
 
+Exercise
+--------
+
+Use the methods of dictionaries in the diagram and figure out what they do:
+
+.. figure:: dicts.png
+
+
+----
+
 Accessing elements in dictionaries
 ----------------------------------
 
@@ -120,7 +130,9 @@ The order is stable in all current versions of Python.
 
 ----
 
-.. question:: What data can I use as keys?
+.. note::
+   
+   **What data can I use as keys?**
 
    Keys of dictionaries can be any **immutable** data types:
 
@@ -135,3 +147,13 @@ The order is stable in all current versions of Python.
 
    The concept behind this phenomenon is that dictionaries use a **hash function** to sort the keys internally. The hash function is what allows
    to look up values very quickly.
+
+----
+
+Reflection Questions
+====================
+
+-  can you use indexing and slicing on dictionaries?
+-  what are lists good for?
+-  what are dictionaries good for?
+-  what is the difference between a function and a method?

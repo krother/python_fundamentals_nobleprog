@@ -29,6 +29,7 @@ Contents
    data_structures/README.rst
    input_output/README.rst
    control_flow/README.rst
+   builtin_functions/README.rst
    functions/README.rst
    classes/README.rst
    structuring_programs/README.rst

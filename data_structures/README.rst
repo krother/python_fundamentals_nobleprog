@@ -1,6 +1,21 @@
 Data Types
 ==========
 
+.. toctree::
+   :maxdepth: 1
+
+   numbers.rst
+   strings.rst
+   lists.rst
+   tuples.rst
+   indexing.rst
+   dictionaries.rst
+
+----
+
+Overview
+--------
+
 ========= ========================== ========= =======
 data type description                composite mutable
 ========= ========================== ========= =======
@@ -15,47 +30,19 @@ set       collection of unique items yes       yes
 NoneType  just nothing               no        no
 ========= ========================== ========= =======
 
-
-.. toctree::
-   :maxdepth: 1
-
-   numbers.rst
-   strings.rst
-   lists.rst
-   tuples.rst
-   dictionaries.rst
-   exercises.rst
-
-----
-
-Basic and composite data types
-------------------------------
-
-**Basic** means that a data type does not contain any other types.
 **Composite** means that a data type contains other types.
 
+**Immutable data types** cannot be modified.
+Every modification creates a new instance.
+
+Most of the composite data types are also **mutable**.
+Their values can be modified.
+
 ----
 
-Immutable and mutable data types
---------------------------------
+Exercise
+--------
 
-In Python there are basic and composite data types. The values of basic
-data types cannot be changed, they are **immutable**. Most of the
-composite data types are **mutable**.
+Identify the data types in the picture:
 
-The immutable data types in Python are:
-
--  Boolean (``True`` / ``False``)
--  Integer (``0``, ``1``, ``-3``)
--  Float (``1.0``, ``-0.3``, ``1.2345``)
--  Strings (``'apple'``, ``"banana"``) - both single and double quotes
-   are valid
--  None (aka an empty variable)
--  Tuples (multiple values in parentheses,
-   e.g. \ ``('Jack', 'Smith', 1990)``)
-
-The mutable data types are
-
--  List [1, 2, 2, 3]
--  Dictionary {‘name’: ‘John Smith’, ‘year’: 1990}
--  Set ``{1, 2, 3}``
+.. figure:: datatypes.png

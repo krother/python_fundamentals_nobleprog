@@ -1,5 +1,5 @@
-Loops with for
-==============
+``for`` loops
+=============
 
 The ``for`` loop allows you to repeat one or more instructions. To write
 a ``for`` loop you need two things: First a **sequence-like

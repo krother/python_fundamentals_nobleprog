@@ -16,6 +16,15 @@ and also lists of numbers:
 
 ----
 
+Exercise
+--------
+
+Use the methods of lists in the diagram and figure out what they do:
+
+.. figure:: lists.png
+
+----
+
 Accessing elements of lists
 ---------------------------
 

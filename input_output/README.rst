@@ -1,6 +1,6 @@
 
-Basic Input and Output
-======================
+Input and Output
+================
 
 .. toctree::
    :maxdepth: 1
