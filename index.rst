@@ -14,7 +14,6 @@ Python Fundamentals
 Organizational Links
 --------------------
 
-* `Zoom Session <>`__
 * `Spreadsheet for results <https://docs.google.com/spreadsheets/d/1Q9s-KTkw8_HvkJZO_hcMXw01m9w9HVGGBaAU8oZ4gsM/edit?usp=sharing>`__
 * `NobleProg Course Outline <https://www.nobleprog.ro/en/cc/pyprfu/>`__
 
@@ -33,26 +32,8 @@ Contents
    functions/README.rst
    classes/README.rst
    structuring_programs/README.rst
-
-   structuring_code/README.rst
-   structuring_code/builtin_functions.rst
-   text/README.rst
-
-   numpy_example/README.rst
-   data_analysis/README.rst
    useful_libraries/README.rst
-
-----
-
-Appendix
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   faq.rst
-   cheat_sheets/README.rst
-   links.rst
+   appendix/README.rst
 
 ----
 
