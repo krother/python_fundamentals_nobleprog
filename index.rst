@@ -34,7 +34,6 @@ Contents
    classes/README.rst
    structuring_programs/README.rst
 
-   getting_started/README.rst
    structuring_code/README.rst
    structuring_code/builtin_functions.rst
    text/README.rst

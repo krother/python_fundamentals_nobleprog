@@ -1,21 +1,6 @@
 """
-Sim Kingdom
-===========
-
-The ruler is planning to build a new enchanted castle.
-Enchanted castles are a complicated matter.
-You are tasked with providing enough resources, coordinating construction work.
-
-Every month, you can build one building:
-
-* a lumber mill (costs nothing and produces 1 unit of wood per month)
-* a quarry (costs 2 wood and produces 1 unit of stone per month)
-* a mage tower (costs 15 stone and 10 wood and produces 1 unit of mana per month)
-* an enchanted castle (costs 100 wood, 100 stone and 100 units of mana)
-
-How many months will the construction work take?
+Kingdom Simulator
 """
-
 # initialize resources
 wood = 0
 ...
