@@ -1,52 +1,61 @@
 Data Types
 ==========
 
-Exercise 1
-~~~~~~~~~~
+========= ========================== ========= =======
+data type description                composite mutable
+========= ========================== ========= =======
+int       integer numbers            no        no
+float     floating-point numbers     no        no
+string    characters                 no        no
+bool      ``True`` or ``False``      no        no
+list      sequence of items          yes       yes
+tuple     immutable sequence         yes       no
+dict      lookup table               yes       yes
+set       collection of unique items yes       yes
+NoneType  just nothing               no        no
+========= ========================== ========= =======
 
-Identify the data types in the picture:
 
-|image0|
+.. toctree::
+   :maxdepth: 1
 
---------------
+   numbers.rst
+   strings.rst
+   lists.rst
+   tuples.rst
+   dictionaries.rst
+   exercises.rst
 
-Exercise 2
-~~~~~~~~~~
+----
 
-Try out methods of **lists** by typing in the examples in the image.
+Basic and composite data types
+------------------------------
 
-|image1|
+**Basic** means that a data type does not contain any other types.
+**Composite** means that a data type contains other types.
 
---------------
+----
 
-Exercise 3
-~~~~~~~~~~
+Immutable and mutable data types
+--------------------------------
 
-Discuss indexing and slicing of lists:
+In Python there are basic and composite data types. The values of basic
+data types cannot be changed, they are **immutable**. Most of the
+composite data types are **mutable**.
 
-|image2|
+The immutable data types in Python are:
 
---------------
+-  Boolean (``True`` / ``False``)
+-  Integer (``0``, ``1``, ``-3``)
+-  Float (``1.0``, ``-0.3``, ``1.2345``)
+-  Strings (``'apple'``, ``"banana"``) - both single and double quotes
+   are valid
+-  None (aka an empty variable)
+-  Tuples (multiple values in parentheses,
+   e.g. \ ``('Jack', 'Smith', 1990)``)
 
-Exercise 4
-~~~~~~~~~~
+The mutable data types are
 
-Try out the methods of **dictionaries** as well.
-
-|image3|
-
---------------
-
-Reflection Questions
-~~~~~~~~~~~~~~~~~~~~
-
--  can you use indexing and slicing on dictionaries?
--  what are lists good for?
--  what are dictionaries good for?
--  what is the difference between a function and a method?
-
-.. |image0| image:: datatypes.png
-.. |image1| image:: lists.png
-.. |image2| image:: indexing.png
-.. |image3| image:: dicts.png
-
+-  List [1, 2, 2, 3]
+-  Dictionary {‘name’: ‘John Smith’, ‘year’: 1990}
+-  Set ``{1, 2, 3}``
