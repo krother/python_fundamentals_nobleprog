@@ -1,37 +1,14 @@
-Structuring Code
-================
+Automated Tests
+===============
 
-In this session, we will **refactor** the kingdom simulator using
-functions and imports.
+In this session, we will use **automated tests** for the kingdom simulator
+in order to improve its structure.
 
-I go by the definition of refactoring by *Martin Fowler*: **Refactoring
-improves the structure of code without changing its functionality.**
+Run the Tests
+-------------
 
-We will apply a very basic refactoring workflow:
-
-::
-
-   1. run the tests
-   2. edit the code
-   3. run the tests
-
---------------
-
-Exercise 1: Kingdom Simulator 2.0
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In this session, we use a slightly different version of the game.
-Please download :download:`sim_kingdom.py <sim_kingdom.py>` .
-
---------------
-
-Exercise 2: Run the Tests
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-A fundamental rule in refactoring is: **you need automated tests**.
-
-We will use the `pytest <https://pytest.org>`__ library. Please make
-sure it is installed:
+We will use the `pytest <https://pytest.org>`__ library.
+Please make sure it is installed:
 
 ::
 
@@ -49,21 +26,25 @@ Then run the tests with:
 
 You should see a message that the tests fail.
 
-To see the output from ``print`` statements, do:
+----
 
-::
+Code with functions
+-------------------
 
-   pytest -s test_sim_kingdom.py
+For the tests to work, we will need a modified version of the code:
+
+* there needs to be a function ``simulate_month()`` that the test will call.
+* we cannot use keyboard input (or had to use )
+
+Please download :download:`sim_kingdom.py <sim_kingdom.py>` and run the tests again.
 
 --------------
 
-Exercise 3: Debugging
-~~~~~~~~~~~~~~~~~~~~~
+Debugging
+---------
 
 The program contains **5 bugs**.
-
 Fix them and run the tests again.
-
 In the end, you should see a message similar to:
 
 ::
@@ -80,9 +61,10 @@ In the end, you should see a message similar to:
 
 --------------
 
-Exercise 4: Extract a function
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extract a function
+------------------
 
+With the test in place, you can comfortable restruture the code.
 Move the code for printing the resources into a new function
 ``print_report``. Follow the recipe:
 
@@ -94,13 +76,10 @@ Move the code for printing the resources into a new function
    4. Add a function call where the code was before
    5. Run the tests
 
-You might write a new test for the function but this is not a best
-practice.
-
 --------------
 
-Exercise 5: Extract a module
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extract a module
+----------------
 
 To make the file smaller, move the newly created function to a new file.
 Follow the recipe:
@@ -114,8 +93,8 @@ The tests should still pass.
 
 --------------
 
-Exercise 6: Extract Data Structures
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extract Data Structures
+-----------------------
 
 The code for checking resources and building is quite redundant. We can
 simplify it by adding an extra data structure.
@@ -138,12 +117,3 @@ You might want to introduce a helper function ``check_costs()``.
 
 Run the tests again when you are don. They should still passs.
 
---------------
-
-Exercise 7
-~~~~~~~~~~
-
-Execute the code sniplets in the following code.
-Make sure you understand what they do:
-
-.. literalinclude:: function_examples.py

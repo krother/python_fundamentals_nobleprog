@@ -5,8 +5,8 @@ There are four types of function parameters in Python:
 
 -  obligatory parameters
 -  optional parameters
--  list parameters (*args)
--  keyword parameters (**kwargs)
+-  list parameters (``*args``)
+-  keyword parameters (``**kwargs``)
 
 The following example uses all four of them:
 

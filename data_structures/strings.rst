@@ -172,5 +172,5 @@ Exercise
 
 Use string methods to fill in the gaps in the following code:
 
-.. literalinclue:: string_exercise.py
+.. literalinclude:: string_exercise.py
 

@@ -19,20 +19,28 @@ Then you can write (e.g. in a second Python file in the same directory):
 .. code:: python3
 
    import names
+
    print(names.FIRST_NAMES)
+
+Alternatively, you could import ``FIRST_NAMES`` explicitly:
+
+.. code:: python3
+
+   from names import FIRST_NAMES
+
+   print(FIRST_NAMES)
 
 ----
 
 Packages
---------
+========
 
 For big programs, it is useful to divide up the code among several
 directories. A directory from which you can import Python modules is
 called a package. To create a package that Python will recognize you
 need to create a file ``__init__.py`` (it may be empty).
 
-For instance, you could have the following files in a package
-``namedata``:
+For instance, you could have the following files in a package ``namedata``:
 
 ::
 
@@ -40,8 +48,10 @@ For instance, you could have the following files in a package
        __init__.py
        names.py
 
+----
+
 Importing modules and packages
-------------------------------
+==============================
 
 To import from a module, a package or their contents, place its name
 (without .py) needs to be given in the import statement. Import
