@@ -4,7 +4,7 @@
 
 ## Organizational links
 
-* [Zoom Session](https://us06web.zoom.us/j/85389761262?pwd=U1J1SEtjZHZ1NnptS0Q2RVRkb09jQT09)
+* [Zoom Session](https://zoom.us/j/95535401676?pwd=blphVkUzWXU4OHE5NmdOaDRVUGVSZz09)
 * [Spreadsheet for results](https://docs.google.com/spreadsheets/d/1Q9s-KTkw8_HvkJZO_hcMXw01m9w9HVGGBaAU8oZ4gsM/edit?usp=sharing)
 * [NobleProg Course Outline](https://www.nobleprog.ro/en/cc/pyprfu/)
 * [Prerequisites](prerequisites.md)
