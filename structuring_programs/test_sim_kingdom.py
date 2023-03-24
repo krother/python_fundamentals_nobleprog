@@ -1,17 +1,16 @@
 
-from sim_kingdom import simulate_month
+from sim_kingdom import simulate
 
 
-def test_build_and_produce():
+def test_produce():
     resources = {
-        'wood': 3,
+        'wood': 0,
         'stone': 0,
         'mana': 0,
 
-        'lumber mills': 5,
+        'lumber mills': 0,
         'quarries': 0,
         'mage towers': 0,
     }
-    result = simulate_month(resources, 'lumber mill')
-    assert result['wood'] == 9
-    assert result['lumber mills'] == 6
+    result = simulate(resources, build='lumber mill')
+    assert result['wood'] == 1

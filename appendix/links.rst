@@ -4,6 +4,8 @@ Links
 Code Examples
 -------------
 
+-  `Python Package Examples <https://github.com/krother/python3_package_examples>`__ - by Kristian
+-  `NumPy Graphics <https://github.com/krother/generative_art/>`__ - by Kristian
 -  `Chris Albon <https://chrisalbon.com/>`__ - tons of short data science examples
 -  `pandas user guide <https://pandas.pydata.org/docs/>`__ - data analysis
 -  `Scipy-Lectures <https://scipy-lectures.org/>`__ - plotting and numpy
